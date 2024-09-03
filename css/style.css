@@ -13,6 +13,34 @@
     color: var(--main-color);
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 79px;
+}
+
+.logo {
+    padding: 30px 50px 30px 50px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 68px;
+}
+
+.header-btn {
+    background-color: transparent;
+    border-color: transparent;
+    transition: border-color 0.3s ease;
+    height: 35px;
+}
+
+.header-btn:hover {
+    border-top-color: var(--main-color);
+    color: var(--main-color);
+}
+
 body {
     display: flex;
     justify-content: center;
