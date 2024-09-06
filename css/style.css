@@ -9,10 +9,6 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -38,6 +34,18 @@ header {
 
 .header-btn:hover {
     border-top-color: var(--main-color);
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+    .header-btn:hover {
+        border-top-color: transparent;
+        border-bottom-color: var(--main-color);
+        color: var(--main-color);
+    }
+}
+
+.fa-solid {
     color: var(--main-color);
 }
 
