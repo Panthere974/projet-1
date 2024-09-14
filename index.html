@@ -25,6 +25,7 @@
                 <button class="header-btn">
                     Activités
                 </button>
+            </div>
         </header>
         <main>
             <div class="info-group">
@@ -38,23 +39,25 @@
                     <button type="submit">Rechercher</button>
                 </form>
                 <div class="filter-bar">
-                    <strong>Filtres</strong>
-                    <button>
-                        <i class="fa-solid fa-money-bill-wave" style="color: var(--main-color);"></i>
-                        <strong>Économique</strong>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-person" style="color: var(--main-color);"></i>
-                        <strong>Familial</strong>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-heart" style="color: var(--main-color);"></i>
-                        <strong>Romantique</strong>
-                    </button>
-                    <button>
-                        <i class="fa-solid fa-fire" style="color: var(--main-color);"></i>
-                        <strong>Nos pépites</strong>
-                    </button>
+                    <span class="filter-title">Filtres</span>
+                    <div class="filter-buttons">
+                        <button>
+                            <i class="fa-solid fa-money-bill-wave fa-lg" style="color: var(--main-color);"></i>
+                            <span>Économique</span>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-person fa-lg" style="color: var(--main-color);"></i>
+                            <span>Familial</span>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-heart fa-lg" style="color: var(--main-color);"></i>
+                            <span>Romantique</span>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-fire fa-lg" style="color: var(--main-color);"></i>
+                            <span>Nos pépites</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="hebergements-and-populaires">
@@ -176,8 +179,8 @@
                             </article>
                         </a>
                     </div>
-                    <a>
-                        <strong>Afficher plus</strong>
+                    <a href="#">
+                        <strong class="more-link">Afficher plus</strong>
                     </a>
                 </section>
                 <section class="populaires">
