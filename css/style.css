@@ -213,7 +213,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 15px;
 }
 
 .hebergements-cards a {
@@ -251,8 +250,8 @@ a {
     margin-bottom: 5px;
 }
 
-.more-link {
-    text-align: center;
+.hebergements .more-link {
+    margin-top: 33px;
 }
 
 /****** Populaires ***********/
