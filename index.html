@@ -15,18 +15,18 @@
 </head>
 
 <body>
+    <header>
+        <img class="logo" src="./images/logo/Booki.png" alt="Le logo de Booki">
+        <div class="menu">
+            <button class="header-btn">
+                Hébergements
+            </button>
+            <button class="header-btn">
+                Activités
+            </button>
+        </div>
+    </header>
     <div class="main-container">
-        <header>
-            <img class="logo" src="./images/logo/Booki.png" alt="Le logo de Booki">
-            <div class="menu">
-                <button class="header-btn">
-                    Hébergements
-                </button>
-                <button class="header-btn">
-                    Activités
-                </button>
-            </div>
-        </header>
         <main>
             <div class="info-group">
                 <div class="headline">
@@ -36,7 +36,10 @@
                 <form method="GET" action="" class="search-bar">
                     <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                     <input type="text" id="city" name="city" placeholder="Recherche...">
-                    <button type="submit">Rechercher</button>
+                    <button type="submit">
+                        <span class="search-text">Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
+                    </button>
                 </form>
                 <div class="filter-bar">
                     <span class="filter-title">Filtres</span>
