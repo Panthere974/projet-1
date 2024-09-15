@@ -309,7 +309,6 @@ a {
     flex-direction: column;
     padding: 0px;
     overflow: hidden;
-    height: 439px;
 }
 
 .activites-cards {
@@ -321,7 +320,6 @@ a {
 
 .activites-cards a {
     width: 25%;
-    height: 439px;
 }
 
 .activites-cards img {
@@ -331,7 +329,11 @@ a {
 }
 
 .activites-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 20px;
+    height: 60px;
 }
 
 footer {
@@ -398,6 +400,14 @@ footer {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-cards img {
+        height: 200px;
+    }
+
+    .activites-cards .card-content {
+        height: 70px;
     }
 }
 
@@ -491,5 +501,25 @@ footer {
 
     .populaires-cards a {
         width: 100%;
+    }
+
+    .activites-cards {
+        flex-direction: column;
+    }
+
+    .activites-cards a {
+        width: 100%;
+    }
+
+    .activites-cards img {
+        height: 140px;
+    }
+
+    .activites-cards .card-content {
+        height: 60px;
+    }
+
+    footer {
+        flex-direction: column;
     }
 }
