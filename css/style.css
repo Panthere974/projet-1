@@ -124,12 +124,12 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
 }
 
 .filter-title {
     font-size: 18px;
     font-weight: 700;
+    margin-right: 15px;
 }
 
 .filter-buttons {
@@ -144,7 +144,7 @@ a {
     align-items: center;
     align-content: center;
     height: 50px;
-    padding: 0px 19px;
+    padding: 0px 20px;
     font-size: 17px;
     font-weight: 700;
     border-radius: 25px;
@@ -310,6 +310,7 @@ a {
     flex-direction: column;
     padding: 0px;
     overflow: hidden;
+    margin-top: 33px;
 }
 
 .activites-cards {
@@ -354,6 +355,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-top: 15px;
 }
 
 
@@ -379,6 +381,14 @@ footer {
 
     .hebergements {
         width: 100%;
+    }
+
+    .hebergements-cards .card-title {
+        font-size: 14px;
+    }
+
+    .hebergements-cards .card-subtitle {
+        font-size: 13px;
     }
 
     .populaires {
@@ -473,9 +483,6 @@ footer {
     }
 
     .hebergements-and-populaires {
-        display: flex;
-        justify-content: space-between;
-
         flex-direction: column-reverse;
         gap: 15px;
     }
