@@ -17,23 +17,19 @@
 <body>
     <header>
         <img class="logo" src="./images/logo/Booki.png" alt="Le logo de Booki">
-        <div class="menu">
-            <button class="header-button">
-                Hébergements
-            </button>
-            <button class="header-button">
-                Activités
-            </button>
-        </div>
+        <nav class="menu">
+            <a href="#accomodations" class="header-button">Hébergements</a>
+            <a href="#activities" class="header-button">Activités</a>
+        </nav>
     </header>
     <div class="main-container">
         <main>
             <div class="info-group">
                 <div class="headline">
-                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
                 </div>
-                <form method="GET" action="" class="search-bar">
+                <form method="GET" action="#" class="search-bar">
                     <div class="map-icon">
                         <i class="fa-solid fa-location-dot fa-lg" style="color: #000000;"></i>
                     </div>
@@ -72,7 +68,7 @@
                 </div>
             </div>
             <div class="accommodations-and-popular">
-                <section class="accommodations">
+                <section id="accomodations" class="accommodations">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="accommodations-cards">
                         <a href="#">
@@ -260,7 +256,7 @@
                     </div>
                 </section>
             </div>
-            <div class="activities">
+            <section id="activities" class="activities">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activities-cards">
                     <a href="#">
@@ -304,7 +300,7 @@
                         </article>
                     </a>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
             <div class="footer-column">
